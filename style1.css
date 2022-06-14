@@ -30,16 +30,30 @@
     max-width: 100%;
     align-items: center;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 .card{
     max-width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .card-text{
     font-size: 40px;
     color: green;
+}
+#pricing-pic{
+    width: 100%;
+}
+#footer{
+    background-color: gray;
+    height: 5%;
+    width: 100%;
+    display: block;
+    color: white;
+}
+.footer-content h4{
+    text-align: center;
 }
 @-webkit-keyframes fadeInDown {
     0% {
@@ -59,5 +73,27 @@
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
+    }
+}
+@media(max-width: 768px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card{
+        max-width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+@media(max-width: 1000px){
+    .row{
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 25%;
     }
 }
