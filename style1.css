@@ -3,6 +3,12 @@
     -webkit-animation: fadeInDown 1.5s ease-in-out;
     animation: fadeInDown 1.5s ease-in-out;
 }
+#jumbo-pricing{
+    margin-bottom: 0;
+    -webkit-animation: fadeInDown 1.5s ease-in-out;
+    animation: fadeInDown 1.5s ease-in-out;
+    width: 100%;
+}
 .carousel{
     margin: 0;
     margin-top: 0;
@@ -21,8 +27,15 @@
     color: #006994;
 }
 .row{
-    margin: 10px;
-    padding: 20px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+.card{
+    max-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .card-text{
     font-size: 40px;
