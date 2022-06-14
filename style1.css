@@ -37,13 +37,29 @@
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    -webkit-animation: fadeInUp 1.5s ease-in-out;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+#social-cards{
+    max-width: 500px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadeInUp 1.5s ease-in-out;
+    animation: fadeInUp 1.5s ease-in-out;
 }
 .card-text{
     font-size: 40px;
     color: green;
 }
+#social-cards-text{
+    color: black;
+    font-size: 18px;
+}
 #pricing-pic{
     width: 100%;
+    -webkit-animation: fadeInUp 1.5s ease-in-out;
+    animation: fadeInUp 1.5s ease-in-out;
 }
 #footer{
     background-color: gray;
@@ -54,6 +70,10 @@
 }
 .footer-content h4{
     text-align: center;
+}
+.sm-body{
+    background-image: url('https://wallpaper.dog/large/10913948.jpg');
+    background-attachment: fixed;
 }
 @-webkit-keyframes fadeInDown {
     0% {
