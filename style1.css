@@ -1,0 +1,36 @@
+#jumbo{
+    margin-bottom: 0;
+    -webkit-animation: fadeInDown 1.5s ease-in-out;
+    animation: fadeInDown 1.5s ease-in-out;
+}
+.carousel{
+    margin: 0;
+    margin-top: 0;
+    -webkit-animation: fadeInUp 1.5s ease-in-out;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+.fresh{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
