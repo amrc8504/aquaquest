@@ -75,6 +75,18 @@
     background-image: url('https://wallpaper.dog/large/10913948.jpg');
     background-attachment: fixed;
 }
+#about-row{
+    
+}
+.col-sm-3 img{
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    -webkit-animation: fadeInUp 1.5s ease-in-out;
+    animation: fadeInUp 1.5s ease-in-out;
+}
 @-webkit-keyframes fadeInDown {
     0% {
         opacity: 0;
